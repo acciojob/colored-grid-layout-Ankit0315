@@ -1,12 +1,8 @@
 
-
-
-
-
-.grid-container{
+#grid{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: 242.5px ,242.5px, 242.5px, 242.5px;
+    grid-template-rows:124px, 124px, 124px, 124px, 124px;
     color:white;
     gap: 10px;
     width: 100%;
@@ -14,61 +10,56 @@
     font-size: 4vw;
    
 }
-.item1{
+#grid>div:nth-child(1){
    
-    grid-column-start: 1;
-    grid-column-end:5;
+   grid-column:span 4 / auto;
    width: 100%;
    height: 100%;
    row-gap: 10px;
    background-color: green;
 }
-.item2{
+#grid>div:nth-child(2){
    
-    grid-row-start: 2;
-    grid-row-end: 6;
+   grid-row:span 4 / auto;
     height:100%;
     width: 100%;
     background-color: green;
 }
-.item3{
+#grid>div:nth-child(3){
    width: 100%;
     height:100%;
     background-color: green;
    
 }
-.item4{
+#grid>div:nth-child(4){
     height:100%;
-    grid-column-start: 3;
-    grid-column-end:5;
+    grid-colum:span 2/ auto;
     width: 100%;
      background-color: green;
 }
-.item5{
-    grid-column-start: 2;
-    grid-column-end:4;
+#grid>div:nth-child(5){
+    grid-colum:span 2 / auto;
     height:100%;
     background-color: green;
 }
-.item6{
+#grid>div:nth-child(6){
     height:100%;
     background-color: green;
 }
-.item7{
+#grid>div:nth-child(7){
     height:100%;
     background-color: green;
 }
-.item8{
+#grid>div:nth-child(8){
     height:100%;
     background-color: green;
 }
-.item9{
+#grid>div:nth-child(9){
     height:100%;
     background-color: green;
 }
-.item10{
-    grid-column-start: 2;
-    grid-column-end:5;
+#grid>div:nth-child(10){
+   grid-colum:span 3 / auto;
     height:100%;
    
     background-color: green;
