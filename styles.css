@@ -1,1 +1,75 @@
-/*  your css code here. If applicable */
+
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    color:white;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 4vw;
+   
+}
+.item1{
+   
+    grid-column-start: 1;
+    grid-column-end:5;
+   width: 100%;
+   height: 100%;
+   row-gap: 10px;
+   background-color: green;
+}
+.item2{
+   
+    grid-row-start: 2;
+    grid-row-end: 6;
+    height:100%;
+    width: 100%;
+    background-color: green;
+}
+.item3{
+   width: 100%;
+    height:100%;
+    background-color: green;
+   
+}
+.item4{
+    height:100%;
+    grid-column-start: 3;
+    grid-column-end:5;
+    width: 100%;
+     background-color: green;
+}
+.item5{
+    grid-column-start: 2;
+    grid-column-end:4;
+    height:100%;
+    background-color: green;
+}
+.item6{
+    height:100%;
+    background-color: green;
+}
+.item7{
+    height:100%;
+    background-color: green;
+}
+.item8{
+    height:100%;
+    background-color: green;
+}
+.item9{
+    height:100%;
+    background-color: green;
+}
+.item10{
+    grid-column-start: 2;
+    grid-column-end:5;
+    height:100%;
+   
+    background-color: green;
+}
